@@ -183,6 +183,16 @@ print("Faktorial je",faktorial_je)
 print("Faktorial je",faktorial(40))
 
 
+######## funkce muze vratit i vice promennych
+# - vice vystupnich promennych (pomoci n-tice)
+# - tuple - n-tice
+def moje_funkce(x):
+    return (x, x*2, x**2) #zde pisu do zavorek vsechny chtene vystupni parametry ()
+
+hodnota = moje_funkce(10)
+print(hodnota[2]) #volam zavorkami []
+
+
 ##################### cviceni na konec #####################
 # program, ktery se uzivatele pta na nejakou otazku (vstupni parametr otazky)
 # neda mu pokoj (otazka se porad opakovala), dokud mu neodpovi ANO nebo NE
